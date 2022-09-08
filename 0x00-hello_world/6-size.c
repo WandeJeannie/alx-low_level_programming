@@ -1,31 +1,10 @@
-
-
-include<stdio.h>
-
-int main() {
-
-
-		        char charType;
-			int intType;
-			long int longInt;
-			long long int longIntType;
-			float floatType;
-				
-
-                                                                        
-                       
-		             	   
-			    
-			    
-			    
-			    
-			                     printf("Size of char: %lu byte\n", sizeof(charType));
-					     printf("size of an int: %lu byte\n",sizeof(intType));
-					     printf("size of a long int: %lu byte\n",sizeof(longInt));
-					     printf("size of a long long int: %lu byte\n",sizeof(longIntType));
-					     printf("size of a float: %lu byte\n",sizeof(floatType));
-			    
-			                         
-			   
-			                            return 0;
-             }
+#include <stdio.h>
+int main(void)
+{
+	printf("Size of a char: %ld byte(s)\n", sizeof(char));
+	printf("Size of an int: %ld byte(s)\n",sizeof(int));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %ld byte(s)\n", sizeof(float));
+	return (0);
+}
