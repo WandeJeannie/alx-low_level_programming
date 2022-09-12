@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main is the entry of the program 
- *
- * Return is zero
+ * main - is the entry of the program
+ * Description: prints out text
+ * Return: is zero
  */
 int main(void)
 {

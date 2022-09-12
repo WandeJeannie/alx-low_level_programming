@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main is the beginning of the program 
- * 
- * Return is zero
+ * main - is the beginning of the program
+ * Description: prints out sizes
+ * Return: is zero
  */
 int main(void)
 {
