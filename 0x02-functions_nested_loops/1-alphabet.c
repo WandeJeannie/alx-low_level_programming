@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,13 +7,12 @@
  */
 int main(void)
 {
-	int x = 'a';
+	char alphabet;
 
-	while (x <= 'z')
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		 putchar(x);
-		 x++;
+		putchar(alphabet);
 	}
+	putchar('\n');
 	return (0);
 }
-
